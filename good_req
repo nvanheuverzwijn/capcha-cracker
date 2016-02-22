@@ -1,0 +1,29 @@
+POST /acf2e28903f698eda9bdefc043b6edc3/signin HTTP/1.1
+Host: ctfquest.trendmicro.co.jp:8080
+Connection: keep-alive
+Content-Length: 172
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: http://ctfquest.trendmicro.co.jp:8080
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Referer: http://ctfquest.trendmicro.co.jp:8080/acf2e28903f698eda9bdefc043b6edc3/signin
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.8,fr;q=0.6,de;q=0.4
+Cookie: utag_main=v_id:01500a33e57d001fa9c21dababb103068001d060009dc$_sn:1$_ss:0$_pn:5%3Bexp-session$_st:1443282070900$ses_id:1443280184701%3Bexp-session; fuel_csrf_token=1238df752da23692735881c2396d79f8525cd7ff513743d3149c4006cd0e3f725c1dcb692dd5128774a74b4f6cc47ea383dc7e9ab1a456af94379a8a1e553ae0; fuelcid=J1ZzitUu-EQ01uIE11I1dvu5LUijQX219TfMiMZoa1jgQkt-s6e-Jd19XhEHwOfUkFrDeSFyRtuw_pxXxh-Cpnfj2z0uAvATS898jl_IjlHL66-VMHvi3Vh4o-1aWh_I8XRKOXKzNzijyNVqK2nSczm2BVJEKPpqtm2MkBE0lD_N4lkZUlJEq-suHc_6qwm2l8da4yk4_9Eg3Xe0YCeDkeuIujiWacKFuhQzAWw5jqomplXjhkrbHXOe0sNzuebPO2KDs7SqTnZryy7HIYNT2n1nZCoN0PJZ7pi6J8ZFw6tykS-N-SRrdjv80SWhz-zoK-4TAvO5evKG_6PQJKxzLfQSFR5IJ1Xh2e_yynX8ZtshpxxWgYl5r7IbVzeBwGzdWbfmpTtGxTdXqaLCUiqHcV_fE6ShmXKJdXvHY0dWu2Om1robQmFqf9sQXdFsU1sBb1hvhM71jLUUT0HPWN1zKG1vOyqX
+m|U@
+_7iSOnJvRv57LPbR09UsV5GsuVf2UHroV5uyYhADQFvAsOn3LcurZnOWBcL_9J_Ii_BGyXnFzErO9e5PvgxLXNGYmdSVGcxY3pmSGlYVHp5a3JxbjI3MlN0QjE4aEk3TUlIYThUMm1j
+username=rock&password=rock&fuel_csrf_token=1238df752da23692735881c2396d79f8525cd7ff513743d3149c4006cd0e3f725c1dcb692dd5128774a74b4f6cc47ea383dc7e9ab1a456af94379a8a1e553ae0X
+HTTP/1.1 302 Found
+Date: Sat, 26 Sep 2015 17:09:44 GMT
+Server: Apache
+Set-Cookie: fuel_csrf_token=a4a8d646de452906aa78890468ad8c5b78a351d68b5312a2b00a6f4c4736d66812c109dd14be572edffab93cf913470545b9f59b469e2f4b4f406aebe948a48a; path=/
+Location: http://ctfquest.trendmicro.co.jp:8080/acf2e28903f698eda9bdefc043b6edc3/
+Set-Cookie: fuelcid=J1ZzitUu-EQ01uIE11I1dvu5LUijQX219TfMiMZoa1hIRbqET3A_aOKfdD_Q583rPC5rFq3UI69T08CDC8eLNl8xdTBLZe9UbO5O5W7xuB24qiyb-kuTsJCmdj55sbrVfOL5nTSbY_1CnGO88xaVFhlePYJap8oYf6LnPB01MyCwYF_DLJtpfYB6tQZN00pYx7q9svgnKgtbxX_XbtCDvyAZ0UFlTrUG5BO1FvSowrYCgztKsdnscgfkm6Jhjeq0hm0kDK0LfXM2DHHPq-PzqEfYEwQeP1ZrfFGhr3W7A-34O6PukWH60YZxPKD2sTXUbAIrxOQdFWCAirW1oaBVTZ7wYJaA_fdOmNuAMw_19kn4ZOAAAo96w56gs1e_PatnykHHN_Kk34oXxrBCrakAsSGe0kF_TscANQ4J_TupayDHE8lRL3M6Cj5iH2OswQs8LnYervSVvM588ZnbMbAO6Dic7unWDd8kh_Khd5IXjp9MD4bZ2dtJFJhYMs6oJ5I_NGCS5oigFhRQo1dBUmrIhxs0A5QDSv1Il3wKCP9HkZz8uRpI2TyOU6_cYt3-msa-bNFbOScSje-MjFkCqYGeuAhwDY9WX7aORZuUgD8J5rph-SuYOE_CucEu49halMhbiers4gbqnxLUO2mTrIblNRyTr7w-_UhBGk0r1VEyyJ9VQlpOMFFwMGNxbWc3QnF0QnVFb0MwUW15dERyQ2FHMzV0VDAtUklESkJv; expires=Sat, 26-Sep-2015 19:09:44 GMT; Max-Age=7200; path=/
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+4|V@
+4|W@
+
