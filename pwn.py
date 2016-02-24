@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 import requests
 import sys
@@ -54,7 +54,6 @@ for i in range(0,500):
     im.putdata(new_data)
     im.save("optimized.png")
 
-    caca = subprocess.check_output('tesseract optimized.png stdout', shell=True)
-    print caca.replace('®', '0')
+    caca = subprocess.check_output('gocr optimized.png', shell=True)
 
 c.get(logout)
