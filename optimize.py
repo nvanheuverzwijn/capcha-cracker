@@ -6,7 +6,7 @@ import os
 #
 # first way
 #
-image = Image.open("image.png")
+image = Image.open("captcha.png")
 position = pilutil.get_palette_position_by_usage(image, 0)
 second_position = pilutil.get_palette_position_by_usage(image, 1)
 def overwrite(p):
@@ -16,13 +16,13 @@ def overwrite(p):
 		return pilutil.get_palette_rgb(image, second_position)
 image = pilutil.overwrite_palette(image, overwrite)
 image = pilutil.horizontal_fill(image, position) # Fill anything that is between black pixel.
-image.save("optimize_image1.png")
+image.save("optimized_captcha1.png")
 
 
 #
-#second way
+# second way
 #
-image = Image.open("image.png")
+image = Image.open("captcha.png")
 position = pilutil.get_palette_position_by_usage(image, 1)
 def overwrite(p):
 	if p != position:
@@ -31,7 +31,11 @@ def overwrite(p):
 		return [255,255,255]
 image = pilutil.overwrite_palette(image, overwrite)
 image = pilutil.horizontal_fill(image, position) # Fill anything that is between black pixel.
-image.save("optimize_image2.png")
+image.save("optimize_captcha2.png")
+
+#
+# some example of pilutil.
+#
 
 # extract letter from the optimized image
 letters = pilutil.extract_letters(image, [1])
