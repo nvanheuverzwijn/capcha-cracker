@@ -2,6 +2,7 @@
 from PIL import Image
 import pilutil
 import os
+import subprocess
 
 #
 # first way
@@ -18,6 +19,8 @@ image = pilutil.overwrite_palette(image, overwrite)
 image = pilutil.horizontal_fill(image, position) # Fill anything that is between black pixel.
 image.save("optimized_captcha1.png")
 
+output = subprocess.check_output(['gocr', 'optimized_captcha1.png'])
+print 'gocr: optimized_captcha1.png: {0}'.format(output.rstrip())
 
 #
 # second way
@@ -31,7 +34,10 @@ def overwrite(p):
 		return [255,255,255]
 image = pilutil.overwrite_palette(image, overwrite)
 image = pilutil.horizontal_fill(image, position) # Fill anything that is between black pixel.
-image.save("optimize_captcha2.png")
+image.save("optimized_captcha2.png")
+
+output = subprocess.check_output(['gocr', 'optimized_captcha2.png'])
+print 'gocr: optimize_captcha2.png: {0}'.format(output.rstrip())
 
 #
 # some example of pilutil.
